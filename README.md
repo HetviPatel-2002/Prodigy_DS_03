@@ -1,30 +1,58 @@
-# Building a Decision Tree Classifier
+# Prodigy_DS_03
 
-## Introduction
+This repository contains code and resources to predict whether a customer will purchase a product or service based on their demographic and behavioral data. The dataset used for this project is the Bank Marketing dataset from the UCI Machine Learning Repository.
 
-In this project, I built a decision tree classifier to predict whether a customer will purchase a product or service based on their demographic and behavioral data. The dataset used for this project is the Bank Marketing dataset from the UCI Machine Learning Repository.
+## Aim
+
+The aim of this project is to build a predictive model using machine learning techniques to determine if a customer will make a purchase based on various demographic and behavioral attributes.
 
 ## Dataset
 
-The dataset contains information about direct marketing campaigns of a Portuguese banking institution. The goal is to predict if the client will subscribe to a term deposit.
+The dataset used in this project is the Bank Marketing dataset from the UCI Machine Learning Repository. It contains information about customers and their interactions with a bank's marketing campaigns.
 
-## Steps Involved
+- **Source:** [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+- **Attributes:**
+  - Age
+  - Job
+  - Marital status
+  - Education
+  - Default
+  - Balance
+  - Housing
+  - Loan
+  - Contact
+  - Day
+  - Month
+  - Duration
+  - Campaign
+  - Pdays
+  - Previous
+  - Poutcome
+  - and more...
 
-1. Data Loading
-2. Data Preprocessing
-3. Model Training
-4. Model Evaluation
 
-## Data Loading
+## Getting Started
 
-First, let's load the dataset.
+### Prerequisites
 
-```python
-import pandas as pd
+- Python 3.x
+- Jupyter Notebook
 
-# Load the dataset
-url = "https://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank-additional-full.csv"
-data = pd.read_csv(url, sep=';')
 
-# Display the first few rows of the dataset
-data.head()
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/HetviPatel-2002/Prodigy_DS_03.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Prodigy_DS_03
+   ```
+
+## Acknowledgements
+
+- The dataset used in this project is from the UCI Machine Learning Repository.
